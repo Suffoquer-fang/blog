@@ -21,8 +21,7 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Suffoquer's Blog
-description: > # this means to ignore newlines until "Language & timezone"
-
+description: > 写出来的那能叫心里话吗？
 
 ## => Language and Timezone
 ##############################
@@ -34,9 +33,9 @@ timezone: Asia/Shanghai
 author:
   type      : # "person" (default), "organization"
   name      : Suffoquer
-  url       :
-  avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  url       : 
+  avatar    : /assets/images/avatar.png
+  bio       : 正经人谁写博客啊
   email     : 1161290791@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -205,12 +204,12 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: true
-      license: true
+      sharing: false
+      license: false
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
+      show_edit_on_github: false
+      show_subscribe: false
       pageview: true
 
 
