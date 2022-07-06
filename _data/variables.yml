@@ -19,7 +19,7 @@ default:
     mode: normal
     type: webpage
     article_header:
-      align: left
+      align: center
       theme: light
     articles:
       show_cover: true
@@ -39,6 +39,12 @@ default:
     pageview: false
     search: default
 
+  article:
+    sharing: false
+    show_author_profile: true
+    show_subscribe: false
+    license: false
+  
 sources:
   bootcdn:
     font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css'
